@@ -1,0 +1,48 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "title": "1933 Aerial",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_9.png",
+        "layers": [
+          {
+            "url": "http://tiles.arcgis.com/tiles/44C95LOqZjbh8Row/arcgis/rest/services/Denver_1933_Aerial/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      {
+        "title": "Modern Aerial",
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_10.png",
+        "layers": [
+          {
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+          },
+          {
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "title": "Topographic",
+        "layers": [
+          {
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "thumbnailUrl": "${appPath}/configs/BasemapGallery/thumbnailUrl_11.png"
+      }
+    ],
+    "mode": 2
+  }
+}
